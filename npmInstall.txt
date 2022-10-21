@@ -1,0 +1,24 @@
+== axios ==
+npm i axios
+
+== tailwind == 
+npm i -D tailwindcss postcss autoprefixer
+
+== dasyUi ==
+npm i daisyui
+
+== fontAwesome ==
+// Font Awesome의 SVG 기반 아이콘을 활성화 시키기 위한 기본 패키지 설치
+$ npm i @fortawesome/fontawesome-svg-core
+ 
+// Font Awesome을 리액트 컴포넌트 형태로 사용하기 위한 패키지 설치
+$ npm i @fortawesome/react-fontawesome
+ 
+// 필요한 아이콘 파일 설치(코드의 자세한 내용은 아래에서 설명)
+$ npm i -S @fortawesome/free-solid-svg-icons
+
+// 웹 소캣
+npm i sockjs-client react-stomp
+
+// base-64
+npm i base-64

@@ -2,7 +2,7 @@
   "name": "sm_chatting_front",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:8031",
+  "proxy": "http://52.79.215.19:8031",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.0",

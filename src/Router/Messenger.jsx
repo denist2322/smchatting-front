@@ -24,7 +24,7 @@ const Messenger = () => {
     }
   };
   // 웹소캣 연결
-  const socket = new SockJS("http:/localhost:8031/chat/chatting");
+  const socket = new SockJS("http://52.79.215.19:8031/chat/chatting");
   const client = Stomp.over(socket);
   const tmp = localStorage.getItem("Token");
   let payload = tmp.substring(tmp.indexOf(".") + 1, tmp.lastIndexOf("."));

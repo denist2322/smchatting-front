@@ -39,7 +39,7 @@ const MainPage = () => {
     // 이메일 혹은 비밀번호가 공백이면 서버와 통신하기 전 사전에 차단한다.
     if (userEmail !== "" && userPassword !== "") {
       loginData = await axios({
-        url: "http://localhost:8031/login",
+        url: "http://52.79.215.19:8031/login",
         method: "POST",
         data: {
           userEmail,

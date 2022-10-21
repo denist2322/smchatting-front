@@ -10,7 +10,7 @@ const UserModal = ({ setChatRoomId, setUserModal, friend, userId, setActive, sea
     // 친구인지 아닌지 확인한다.
     const ifFriend = async () => {
       const ifFriendData = await axios({
-        url: `http://localhost:8031/isFriend`,
+        url: `http://52.79.215.19:8031/isFriend`,
         method: "POST",
         data: {
           otherOne,
@@ -31,7 +31,7 @@ const UserModal = ({ setChatRoomId, setUserModal, friend, userId, setActive, sea
   const deleteFriend = async (e) => {
     e.preventDefault();
     const delData = await axios({
-      url: `http://localhost:8031/delFriend`,
+      url: `http://52.79.215.19:8031/delFriend`,
       method: "POST",
       data: {
         otherOne,
@@ -49,7 +49,7 @@ const UserModal = ({ setChatRoomId, setUserModal, friend, userId, setActive, sea
   const addFriend = async (e) => {
     e.preventDefault();
     const addFriendData = await axios({
-      url: `http://localhost:8031/addFriend`,
+      url: `http://52.79.215.19:8031/addFriend`,
       method: "POST",
       data: {
         otherOne,
@@ -67,7 +67,7 @@ const UserModal = ({ setChatRoomId, setUserModal, friend, userId, setActive, sea
   const talkking = async (e) => {
     e.preventDefault();
     const addTalkroom = await axios({
-      url: `http://localhost:8031/addTalkroom`,
+      url: `http://52.79.215.19:8031/addTalkroom`,
       method: "POST",
       data: {
         otherOne,

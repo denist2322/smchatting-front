@@ -24,7 +24,7 @@ const Footer = ({ client, content, setContent, chatRoomId, userId }) => {
       formData.append("files", e.target.files[i]);
     }
     const fileData = await axios({
-      url: `http://localhost:8031/fileUpload?id=${userId}`,
+      url: `http://52.79.215.19:8031/fileUpload?id=${userId}`,
       method: "POST",
       data: formData,
     });
